@@ -6,14 +6,6 @@
   box-sizing: border-box;
 }
 
-/* css variables */
-
-/* :root { */
-
-/* --navbar-height: 59px; */
-
-/* } */
-
 .main {
   width: 100vw;
 }
@@ -29,28 +21,7 @@
 
 #navbar ul {
   display: flex;
-}
-
-/* #navbar::before {
-    content: "";
-    background-color: black;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 2.4;
-} */
-
-#navbar ul li {
-  list-style: none;
-  /* padding-top: 10px; */
-  /*dot gayab*/
-  font-size: 1.4rem;
-  align-items: center;
-  /* margin-left: 23px; */
-  /* margin-top: 0px; */
+  list-style-type: none;
 }
 
 #navbar ul li a {
@@ -59,6 +30,7 @@
   padding: 3px 25px;
   text-decoration: none;
   border-radius: 20px;
+  font-size: 20px;
 }
 
 #navbar ul li a:hover {
@@ -71,7 +43,6 @@
   background-color: white;
   border-radius: 20px;
   display: flex;
-  /* justify-content: flex-start; */
 }
 
 #logo img {
@@ -83,7 +54,7 @@
 
 /*utility classes*/
 .home {
-  background: url("../bg1.jpg");
+  background: url("../images/bg1.jpg");
   padding: 100px;
   background-position: center;
   background-size: cover;
@@ -164,7 +135,7 @@
 }
 
 #contact {
-  background: url("../bg4.jpg");
+  background: url("../images/bg4.jpg");
   position: relative;
   height: 500px;
   /* border: 3px solid black; */
